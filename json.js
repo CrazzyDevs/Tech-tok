@@ -35,14 +35,7 @@ const data = [
       "btn": "add to cart",
       "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603863/rocknwool-GUzkgot7LN8-unsplash-removebg-preview_umkjey.png "
     },
-    {
-      "id": 5,
-      "name": "Salty Crush Mini",
-      "price": 280,
-      "des": "Elevate your style game with a white skirt that adds a crisp dose of brightness.",
-      "btn": "add to cart",
-      "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603822/lensabl-5pmpSRctZb0-unsplash-removebg-preview_wxc1r9.png "
-    },
+
   ];
 
   const data2 = [
@@ -78,65 +71,74 @@ const data = [
       "btn": "add to cart",
       "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603808/anubhav-arora-g1vk_Bef2Xk-unsplash-removebg-preview_nzgauv.png "
     },
-    {
-      "id": 5,
-      "name": "Loafer Heel",
-      "price": 560,
-      "des": "Take your style to the next level with this sleek and stylish heel shoes.",
-      "btn": "add to cart",
-      "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603865/alex-hudson-Plg3KC7cV0o-unsplash-removebg-preview_zrhegl.png "
-    },
+
   ];
 
   const data3 = [
     {
-      "id": 1,
-      "name": "All Stars",
-      "price": 520.90,
-      "des": "these shoe consists of a stitched upper portion, and a toe cap and outsole usually made of rubber.",
-      "btn": "add to cart",
-      "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603812/huyen-nguy-IjzhMi4Cw3w-unsplash-removebg-preview_uhak2n.png "
+      id: 1,
+      name: "All Stars",
+      price: 520.9,
+      des: "these shoe consists of a stitched upper portion, and a toe cap and outsole usually made of rubber.",
+      btn: "add to cart",
+      img: "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603812/huyen-nguy-IjzhMi4Cw3w-unsplash-removebg-preview_uhak2n.png ",
     },
     {
-      "id": 2,
-      "name": "Patent leather",
-      "price": 650,
-      "des": " Explore our high-gloss, grain-free leather, which has been gloss-finished on the surface.",
-      "btn": "add to cart",
-      "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603824/kier-in-sight-b4Xk6bzgQWU-unsplash-removebg-preview_cjglav.png "
+      id: 2,
+      name: "Patent leather",
+      price: 650,
+      des: " Explore our high-gloss, grain-free leather, which has been gloss-finished on the surface.",
+      btn: "add to cart",
+      img: "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603824/kier-in-sight-b4Xk6bzgQWU-unsplash-removebg-preview_cjglav.png ",
     },
     {
-      "id": 3,
-      "name": "Beach Shoes",
-      "price": 980,
-      "des": "These shoes are the perfect finishing touch, with a range of colors and sizes to choose from.",
-      "btn": "add to cart",
-      "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603838/raoul-croes-94KcLYsihLY-unsplash-removebg-preview_qteskd.png "
+      id: 3,
+      name: "Beach Shoes",
+      price: 980,
+      des: "These shoes are the perfect finishing touch, with a range of colors and sizes to choose from.",
+      btn: "add to cart",
+      img: "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603838/raoul-croes-94KcLYsihLY-unsplash-removebg-preview_qteskd.png ",
     },
     {
-      "id": 4,
-      "name": "The Fila Hover",
-      "price": 1280,
-      "des": "A pair of Fila shoe that combine style, comfort and durability in one.",
-      "btn": "add to cart",
-      "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603836/tom-radetzki-SzVXG6FFh0Q-unsplash-removebg-preview_wmkwh3.png "
+      id: 4,
+      name: "The Fila Hover",
+      price: 1280,
+      des: "A pair of Fila shoe that combine style, comfort and durability in one.",
+      btn: "add to cart",
+      img: "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603836/tom-radetzki-SzVXG6FFh0Q-unsplash-removebg-preview_wmkwh3.png ",
     },
     {
-      "id": 5,
-      "name": "Nike loafer",
-      "price": 1320,
-      "des": "These cushioned and insole and padded collar provide superior comfort and support for all-day wear",
-      "btn": "add to cart",
-      "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603808/revolt-164_6wVEHfI-unsplash-removebg-preview_zruqkx.png "
+      id: 5,
+      name: "Nike loafer",
+      price: 1320,
+      des: "These cushioned and insole and padded collar provide superior comfort and support for all-day wear",
+      btn: "add to cart",
+      img: "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603808/revolt-164_6wVEHfI-unsplash-removebg-preview_zruqkx.png ",
     },
     {
-      "id": 6,
-      "name": "Adidas pair ",
-      "price": 2500,
-      "des": "These durable rubber outsole delivers excellent traction and grip on a variety surfaces ",
-      "btn": "add to cart",
-      "img": "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603848/matus-hatala-pFzxaKhdFME-unsplash-removebg-preview_outxtt.png "
-    }
+      id: 6,
+      name: "Adidas pair ",
+      price: 2500,
+      des: "These durable rubber outsole delivers excellent traction and grip on a variety surfaces ",
+      btn: "add to cart",
+      img: "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603848/matus-hatala-pFzxaKhdFME-unsplash-removebg-preview_outxtt.png ",
+    },
+    {
+      id: 7,
+      name: "Loafer Heel",
+      price: 560,
+      des: "Take your style to the next level with this sleek and stylish heel shoes.",
+      btn: "add to cart",
+      img: "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603865/alex-hudson-Plg3KC7cV0o-unsplash-removebg-preview_zrhegl.png ",
+    },
+    {
+      id: 8,
+      name: "Salty Crush Mini",
+      price: 280,
+      des: "Elevate your style game with a white skirt that adds a crisp dose of brightness.",
+      btn: "add to cart",
+      img: "https://res.cloudinary.com/dwyccayuh/image/upload/v1677603822/lensabl-5pmpSRctZb0-unsplash-removebg-preview_wxc1r9.png ",
+    },
   ];
   
 const product = data.map((item) => {
@@ -154,22 +156,7 @@ const product = data.map((item) => {
               <h4>$<span>${item.price}</span></h4>
           </div>
           <div class="product-descri">
-              <p>${item.des}</p>
-              <div class="rating">
-                  <div class="star-rating" id="star">
-                      <input type="radio" name="rating1" id="rating1">
-                      <label for="rating1" class="fa fa-star"></label>
-                      <input type="radio" name="rating2" id="rating2">
-                      <label for="rating2" class="fa fa-star"></label>
-                      <input type="radio" name="rating3" id="rating3">
-                      <label for="rating3" class="fa fa-star"></label>
-                      <input type="radio" name="rating4" id="rating4">
-                      <label for="rating4" class="fa fa-star"></label>
-                      <input type="radio" name="rating5" id="rating5">
-                      <label for="rating5" class="fa fa-star"></label>
-                      <h4>(<span>154</span>)</h4>
-                  </div>
-              </div>
+              <p>${item.des}</p>            
               <button class="add-btn">${item.btn}</button>
           </div>
       </div>
@@ -197,21 +184,6 @@ const otherProducts = data2.map((item, id) => {
           </div>
           <div class="product-descri">
               <p>${item.des}</p>
-              <div class="rating">
-                  <div class="star-rating" id="star">
-                      <input type="radio" name="rating1" id="rating1">
-                      <label for="rating1" class="fa fa-star"></label>
-                      <input type="radio" name="rating2" id="rating2">
-                      <label for="rating2" class="fa fa-star"></label>
-                      <input type="radio" name="rating3" id="rating3">
-                      <label for="rating3" class="fa fa-star"></label>
-                      <input type="radio" name="rating4" id="rating4">
-                      <label for="rating4" class="fa fa-star"></label>
-                      <input type="radio" name="rating5" id="rating5">
-                      <label for="rating5" class="fa fa-star"></label>
-                      <h4>(<span>154</span>)</h4>
-                  </div>
-              </div>
               <button class="add-btn">${item.btn}</button>
           </div>
       </div>
@@ -239,21 +211,6 @@ const highProducts = data3.map((item, id) => {
           </div>
           <div class="product-descri">
               <p>${item.des}</p>
-              <div class="rating">
-                  <div class="star-rating" id="star">
-                      <input type="radio" name="rating1" id="rating1">
-                      <label for="rating1" class="fa fa-star"></label>
-                      <input type="radio" name="rating2" id="rating2">
-                      <label for="rating2" class="fa fa-star"></label>
-                      <input type="radio" name="rating3" id="rating3">
-                      <label for="rating3" class="fa fa-star"></label>
-                      <input type="radio" name="rating4" id="rating4">
-                      <label for="rating4" class="fa fa-star"></label>
-                      <input type="radio" name="rating5" id="rating5">
-                      <label for="rating5" class="fa fa-star"></label>
-                      <h4>(<span>154</span>)</h4>
-                  </div>
-              </div>
               <button class="add-btn">${item.btn}</button>
           </div>
       </div>
